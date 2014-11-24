@@ -440,7 +440,8 @@ html { box-sizing: border-box;
 
 body{
     font-family: Tahoma, Geneva, sans-serif;
-    background-color: white;
+    background-image: url(../images/bgtexture.jpg);
+    background-color: #2e2e2e;
     font-size: 10pt;
     line-height: 1.2em;  
 }
@@ -451,6 +452,8 @@ body{
     position: relative;
     width: 85%;
     margin: 0px auto;
+    border-right: solid black 2px;
+    border-left: solid black 2px;
 }
 
 body a:link {
@@ -488,6 +491,7 @@ header{
 }
 .tagline{
     background-color: #2e2e2e;
+    background-image: url(../images/bgtexture.jpg);
     clear: both;
     color: white;
     font-family: verdana, sans-serif;
@@ -501,37 +505,38 @@ header{
     border-bottom: #cf202e solid 2px;
 }
 .mainnav{
-    background-color: #2e2e2e;
     clear: both;
-    color: white;
-    min-height:  -height: 3em;
+    color: #cf202e;
+    min-height: 4em;
     display: flex;
     justify-content: space-around;
+    border-top: solid black 2px;
     }
 .mainnav ul{
     list-style: none;}
 .mainnav li {
-    padding: 1em;
+    padding: .2em 1em;
     display: block;
     margin-right: 10px;
     align-content: center;
     float: left;
 }
 .mainnav a:link{
-    color: white;
+    color: #cf202e;
     display: block;
     font-size: large;
     text-decoration: none;
     font-weight: bold;
 }
 .mainnav li a:hover {
-    color: #cf202e;
+    color: #2e2e2e;
+    border-bottom: solid #cf202e 2px;
     background-color: white;
     }
 .mainnav li:hover{
     background-color: #fff;
     color: #cf202e;}
-.mainnav a:visited{color: #cf202e;}
+.mainnav a:visited{color: #2e2e2e;}
 .socialmedia{
     float: right;
     padding: 0.6em;}
@@ -559,7 +564,8 @@ header{
 #content{
     min-height: 50%;
     max-width: 47%;
-    float: right;}
+    float: right;
+    padding: 1em;}
 #content a{
     color: black;
 }
@@ -567,6 +573,7 @@ header{
     color: #cf202e;
 }
 .divider {
+    background-image: url(../images/bgtexture.jpg);
     background-color: #2e2e2e;
     margin-top: 0;
     height: 1.3em;
@@ -605,6 +612,7 @@ header{
 .footer{
     min-height: 10%;
     width: 100%;
+    background-image: url(../images/bgtexture.jpg);
     background-color: #2e2e2e;
     color: white;
     border-top: #cf202e solid 2px;
@@ -626,7 +634,7 @@ header{
     float: left;
     margin: 0px;
     padding: 0.5em;
-    background-color: #2e2e2e;}
+   }
 .fcol a:link{color: white;}
 .fcol a:hover{color: #cf202e;}
 .fcol a:visited{color: #cf202e;}
