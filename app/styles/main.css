@@ -447,13 +447,11 @@ body{
 }
 
 #pagewrap {
-    overflow: auto;
     background-color: white;
     position: relative;
     width: 85%;
     margin: 0px auto;
-    border-right: solid black 2px;
-    border-left: solid black 2px;
+    
 }
 
 body a:link {
@@ -505,12 +503,11 @@ header{
     border-bottom: #cf202e solid 2px;
 }
 .mainnav{
-    clear: both;
     color: #cf202e;
     min-height: 4em;
     display: flex;
     justify-content: space-around;
-    border-top: solid black 2px;
+    min-width: 60%;
     }
 .mainnav ul{
     list-style: none;}
@@ -539,12 +536,14 @@ header{
 .mainnav a:visited{color: #2e2e2e;}
 .socialmedia{
     float: right;
-    padding: 0.6em;}
+    padding: 0.6em;
+    min-width: 150px;}
 .logo {
     background-color: white;
     padding: 0px;
     margin-right: 2em;
     margin-left: 2em;
+    min-width: 150px;
     display: block;
     float: left;
     overflow: hidden;} 
