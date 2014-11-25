@@ -438,6 +438,11 @@ html { box-sizing: border-box;
 
 /* Globals*/
 
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
 body{
     font-family: Tahoma, Geneva, sans-serif;
     background-image: url(../images/bgtexture.jpg);
