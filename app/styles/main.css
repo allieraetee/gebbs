@@ -445,7 +445,7 @@ html { box-sizing: border-box;
 
 body{
     font-family: Tahoma, Geneva, sans-serif;
-    background-image: url(../images/bgtexture.jpg);
+    background-image: url(../images/dark_matter.png);
     background-color: #2e2e2e;
     font-size: 10pt;
     line-height: 1.2em;  
@@ -494,7 +494,7 @@ header{
 }
 .tagline{
     background-color: #2e2e2e;
-    background-image: url(../images/bgtexture.jpg);
+    background-image: url(../images/dark_matter.png);
     clear: both;
     color: white;
     font-family: verdana, sans-serif;
@@ -577,7 +577,7 @@ header{
     color: #cf202e;
 }
 .divider {
-    background-image: url(../images/bgtexture.jpg);
+    background-image: url(../images/dark_matter.png);
     background-color: #2e2e2e;
     margin-top: 0;
     height: 1.3em;
@@ -616,7 +616,7 @@ header{
 .footer{
     min-height: 10%;
     width: 100%;
-    background-image: url(../images/bgtexture.jpg);
+    background-image: url(../images/dark_matter.png);
     background-color: #2e2e2e;
     color: white;
     border-top: #cf202e solid 2px;
