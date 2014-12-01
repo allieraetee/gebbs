@@ -428,7 +428,7 @@ table {
 
 td,
 th {
-  padding: 0;
+  padding: 15px;
 }
 html { box-sizing: border-box; 
     margin: 0px;
@@ -474,8 +474,8 @@ h2 {
     font-family: Tahoma, Geneva, sans-serif;
     font-size: x-large;}
 h3{
-    text-align: right;
-    font-size: x-large;}
+    font-family: sans-serif;
+    font-size: large;}
 .bold{
     font-weight: bold;
     color: #cf202e}
@@ -604,9 +604,9 @@ header{
     margin: .6em;
     background-repeat: no-repeat;
     background-position: center; }
-.img-1 { background-image: url(../images/faces.jpg);}
+.img-1 { background-image: url(../images/hamptonplaza.jpg);}
 .img-2 { background-image: url(../images/bluehand.jpg);}
-.img-3 { background-image: url(../images/hamptonplaza.jpg);}
+.img-3 { background-image: url(../images/erindesk.jpg);}
 .img-4 { background-image: url(../images/pinkiefinger.jpg);}
 .img-5{background-image:url(../images/erindesk.jpg);}
 
