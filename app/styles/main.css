@@ -430,6 +430,7 @@ td,
 th {
   padding: 15px;
 }
+
 html { box-sizing: border-box; 
     margin: 0px;
     padding: 0px;
@@ -456,6 +457,7 @@ body{
     position: relative;
     width: 85%;
     margin: 0px auto;
+    
     
 }
 
@@ -486,6 +488,9 @@ h3{
 .x-large {
     font-size: x-large;
     line-height: 1.4em;}
+th {
+    font-size: large;
+    color: #cf202e;}
 /* Header+Nav */
 
 header{
@@ -597,17 +602,19 @@ header{
     float: right;
     margin: 0.6em;
 }
+.jobs {
+    margin: 1em;}
 [class^="img-"] {
-    min-height: 25em;
+    min-height: 35em;
     width: 49%;
     float: left;
     margin: .6em;
     background-repeat: no-repeat;
     background-position: center; }
-.img-1 { background-image: url(../images/hamptonplaza.jpg);}
-.img-2 { background-image: url(../images/bluehand.jpg);}
-.img-3 { background-image: url(../images/erindesk.jpg);}
-.img-4 { background-image: url(../images/pinkiefinger.jpg);}
+.img-1 { background-image: url(../images/indeximage.jpg);}
+.img-2 { background-image: url(../images/payerpage.jpg);}
+.img-3 { background-image: url(../images/aboutimage.jpg);}
+.img-4 { background-image: url(../images/doctors.jpg);}
 .img-5{background-image:url(../images/erindesk.jpg);}
 
 
