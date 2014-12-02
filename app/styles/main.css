@@ -428,8 +428,9 @@ table {
 
 td,
 th {
-  padding: 0;
+  padding: 15px;
 }
+
 html { box-sizing: border-box; 
     margin: 0px;
     padding: 0px;
@@ -438,22 +439,24 @@ html { box-sizing: border-box;
 
 /* Globals*/
 
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
 body{
     font-family: Tahoma, Geneva, sans-serif;
-    background-image: url(../images/bgtexture.jpg);
+    background-image: url(../images/dark_matter.png);
     background-color: #2e2e2e;
     font-size: 10pt;
     line-height: 1.2em;  
 }
 
 #pagewrap {
-    overflow: auto;
     background-color: white;
     position: relative;
     width: 85%;
     margin: 0px auto;
-    border-right: solid black 2px;
-    border-left: solid black 2px;
 }
 
 body a:link {
@@ -471,8 +474,8 @@ h2 {
     font-family: Tahoma, Geneva, sans-serif;
     font-size: x-large;}
 h3{
-    text-align: right;
-    font-size: x-large;}
+    font-family: sans-serif;
+    font-size: large;}
 .bold{
     font-weight: bold;
     color: #cf202e}
@@ -483,6 +486,9 @@ h3{
 .x-large {
     font-size: x-large;
     line-height: 1.4em;}
+th {
+    font-size: large;
+    color: #cf202e;}
 /* Header+Nav */
 
 header{
@@ -491,7 +497,7 @@ header{
 }
 .tagline{
     background-color: #2e2e2e;
-    background-image: url(../images/bgtexture.jpg);
+    background-image: url(../images/dark_matter.png);
     clear: both;
     color: white;
     font-family: verdana, sans-serif;
@@ -505,12 +511,11 @@ header{
     border-bottom: #cf202e solid 2px;
 }
 .mainnav{
-    clear: both;
     color: #cf202e;
-    min-height: 3em;
+    min-height: 4em;
     display: flex;
     justify-content: space-around;
-    border-top: solid black 2px;
+    min-width: 60%;
     }
 .mainnav ul{
     list-style: none;}
@@ -539,12 +544,14 @@ header{
 .mainnav a:visited{color: #2e2e2e;}
 .socialmedia{
     float: right;
-    padding: 0.6em;}
+    padding: 0.6em;
+    min-width: 150px;}
 .logo {
     background-color: white;
     padding: 0px;
     margin-right: 2em;
     margin-left: 2em;
+    min-width: 150px;
     display: block;
     float: left;
     overflow: hidden;} 
@@ -573,7 +580,7 @@ header{
     color: #cf202e;
 }
 .divider {
-    background-image: url(../images/bgtexture.jpg);
+    background-image: url(../images/dark_matter.png);
     background-color: #2e2e2e;
     margin-top: 0;
     height: 1.3em;
@@ -593,17 +600,19 @@ header{
     float: right;
     margin: 0.6em;
 }
+.jobs {
+    margin: 1em;}
 [class^="img-"] {
-    min-height: 25em;
+    min-height: 35em;
     width: 49%;
     float: left;
     margin: .6em;
     background-repeat: no-repeat;
     background-position: center; }
-.img-1 { background-image: url(../images/faces.jpg);}
-.img-2 { background-image: url(../images/bluehand.jpg);}
-.img-3 { background-image: url(../images/hamptonplaza.jpg);}
-.img-4 { background-image: url(../images/pinkiefinger.jpg);}
+.img-1 { background-image: url(../images/indeximage.jpg);}
+.img-2 { background-image: url(../images/payerpage.jpg);}
+.img-3 { background-image: url(../images/aboutimage.jpg);}
+.img-4 { background-image: url(../images/doctors.jpg);}
 .img-5{background-image:url(../images/erindesk.jpg);}
 
 
@@ -612,7 +621,7 @@ header{
 .footer{
     min-height: 10%;
     width: 100%;
-    background-image: url(../images/bgtexture.jpg);
+    background-image: url(../images/dark_matter.png);
     background-color: #2e2e2e;
     color: white;
     border-top: #cf202e solid 2px;
