@@ -1,0 +1,28 @@
+/* VIEWPORT < 420px */
+ 
+@media all and (max-width: 420px){
+    body{
+        background-image: none;
+        background-color: white;}
+    .mainnav{
+        clear: both;}
+    .mainnav li {
+        padding: .2em .2em;}
+    #pagewrap {
+        width: auto;
+        margin: 0px auto;}
+    #content {
+        float: none;
+        width: 100%;}
+    [class^="img-"] {
+        float: none;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;}
+    .logo{
+        width: 50%;
+        margin: 0px;}
+    .socialmedia{
+        max-width: 50%;}
+    }
+

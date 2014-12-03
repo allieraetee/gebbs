@@ -488,21 +488,22 @@ h3{
     font-weight: bold;
     color: #148478;
     font-family: 'Open Sans Condensed', sans-serif;}
-.orange{
-    font-style: italic;
+.accent{
+    font-weight: bold;
     letter-spacing: 1px;
     color: #148478;
     font-family: 'Open Sans Condensed', sans-serif;}
 .xxlarge{
     font-weight: bold;
     color: #cf202e;
-    font-stretch: expanded;
-    font-size: 22pt;}
-
-.submit{
-    color: black;
-    background-color: white;
+    font-size: 25pt;}
+.bigaccent{
+    color: #148478;
+    font-size: 22pt;
+    letter-spacing: 2px;
+    line-height: 1.4em;
     }
+
 .x-large {
     font-size: x-large;
     line-height: 1.4em;}
@@ -512,43 +513,46 @@ th {
 /* Header+Nav */
 
 header{
-    min-height: 20%;
     position: relative;
     background-image: url(../images/headerbg.jpg);
 }
 .tagline{
     background-color: #2e2e2e;
-    background-image: url(../images/dark_matter.png);
+    background-image: url(../images/headerbg.jpg);
     clear: both;
     color: white;
     font-family: verdana, sans-serif;
     text-align: center;
     font-size: x-large;
     letter-spacing: 5px;
+    font-weight: 900;
+    color: #cf202e;
     padding: 0.1em;
     margin: 0;
     display: block;
     border-top: #cf202e solid 2px;
 }
 .mainnav{
-    color: #cf202e;
     font-family: 'Open Sans Condensed', sans-serif;
+    width: 100%;
     font-size: 20pt;
+    text-align: center;
     background-image: url('../images/dark_matter.png');
-    min-height: 3.1em;
-    display: flex;
-    justify-content: space-around;
-    min-width: 60%;
+    min-height: 2.2em;
     clear: both;
     border-bottom: #cf202e solid 2px;
     border-top: #cf202e solid 2px;
-    padding: 0px;
+    padding: 0px auto;
+    margin: 0px auto;
     }
 .mainnav ul{
-    list-style: none;}
+    list-style: none;
+    list-style-position: outside;}
 .mainnav li {
-    display: block;
-    padding: 0px 1em;
+    display: inline;
+    width: 25%;
+    padding: 0px .6em;
+    margin: 0px;
     align-content: center;
     float: left;
 }
@@ -560,8 +564,8 @@ header{
 }
 .mainnav li a:hover {
     color: #fff;
-    border-bottom: solid #148478 2px;
-    padding-bottom: 5px;
+    border-bottom: solid #148478 5px;
+    padding-bottom: 7px;
     }
 .mainnav li:hover{
     color: #cf202e;}
@@ -580,8 +584,12 @@ header{
 
 /* Feature */
 .mainimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
-    align-content: center;}
+    border-top: solid 2px #cf202e}
+
 .slider {
     min-height: 25em;
     width: 49%;
@@ -631,14 +639,26 @@ header{
     min-height: 35em;
     width: 49%;
     float: left;
-    margin: .6em;
+    margin: 0.6em;
+    margin-top: 1em;
     background-repeat: no-repeat;
     background-position: center; }
 .img-1 { background-image: url(../images/indeximage.jpg);}
 .img-2 { background-image: url(../images/payerpage.jpg);}
 .img-3 { background-image: url(../images/aboutimage.jpg);}
 .img-4 { background-image: url(../images/doctors.jpg);}
-.img-5{background-image:url(../images/erindesk.jpg);}
+.img-5{background-image:url(../images/pinkiefinger.jpg);}
+
+.button {
+    text-align: center;
+    overflow-x: hidden;
+    clear:left;
+    max-width: 50%;
+    padding: 1em;}
+.button img{
+    display: inline-block;
+    margin: 0 auto;
+}
 
 
 /*footer */
