@@ -449,7 +449,8 @@ body{
     background-image: url(../images/dark_matter.png);
     background-color: #2e2e2e;
     font-size: 10pt;
-    line-height: 1.2em;  
+    line-height: 1.2em; 
+    position: relative;
 }
 
 #pagewrap {
@@ -482,7 +483,7 @@ h2 {
 h3{
     font-size: x-large;
     letter-spacing: 3px;
-    line-height: 1.4em;
+    line-height: 1em;
     color: #cf202e;}
 .bold{
     font-weight: bold;
@@ -503,13 +504,25 @@ h3{
     letter-spacing: 2px;
     line-height: 1.4em;
     }
-
+.contact{
+    font-size: 14pt;
+    line-height: 1.4em;}
 .x-large {
     font-size: x-large;
     line-height: 1.4em;}
 th {
     font-size: large;
     color: #148478;}
+.line{
+    background-color: #cf202e;
+    margin-top: 0;
+    margin-bottom: .3em;
+    height: .3em;
+    overflow: auto;
+    clear: both;
+    max-width: 75%;}
+.meet{
+    margin: .6em;}
 /* Header+Nav */
 
 header{
@@ -546,30 +559,60 @@ header{
     margin: 0px auto;
     }
 .mainnav ul{
-    list-style: none;
-    list-style-position: outside;}
+    list-style: none;}
 .mainnav li {
     display: inline;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20pt;
+    color: white;
     width: 25%;
     padding: 0px .6em;
     margin: 0px;
     align-content: center;
     float: left;
+    
 }
-.mainnav a:link{
+.mainnav li a:link{
     color: #fff;
     display: block;
     text-decoration: none;
     font-weight: bold;
 }
+.mainnav li a:visited{color: #fff;}
 .mainnav li a:hover {
     color: #fff;
     border-bottom: solid #148478 5px;
     padding-bottom: 7px;
     }
-.mainnav li:hover{
-    color: #cf202e;}
-.mainnav a:visited{color: #fff;}
+.mainnav li a:active {
+    color: #fff;
+    border-bottom: solid #148478 5px;
+    }
+
+/**testing drop down nav**/
+.mainnav li ul{
+    display: none;
+    background-image: url(../images/dark_matter.png);
+    padding: 0;
+    margin: 0;
+    border-bottom: solid 2px #cf202e;
+    border-right: solid 2px #cf202e;
+    border-left: solid 2px #cf202e;
+   }
+
+.mainnav li:hover ul {
+    display: block;
+    float: left;
+    line-height: 1.4em;
+    position: absolute;
+    width: inherit;
+    }
+.mainnav li li {
+    clear: both;
+    width: 100%;
+}
+/* end drop down test*/
+
 .socialmedia{
     float: right;
     padding: 0.6em;}
@@ -587,8 +630,9 @@ header{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    z-index: -1;
     width: 100%;
-    border-top: solid 2px #cf202e}
+    border-bottom: solid 2px #cf202e;}
 
 .slider {
     min-height: 25em;
@@ -633,7 +677,7 @@ header{
     float: right;
     margin: 0.6em;
 }
-.jobs {
+.onecol {
     margin: .5em;}
 [class^="img-"] {
     min-height: 35em;
@@ -700,9 +744,13 @@ header{
         background-image: none;
         background-color: white;}
     .mainnav{
-        clear: both;}
+        clear: both;
+        overflow: visible;
+        min-height: 3em;}
     .mainnav li {
-        padding: .2em .2em;}
+        padding: 0.2em 1em;
+        width: auto;
+        }
     #pagewrap {
         width: auto;
         margin: 0px auto;}
@@ -720,4 +768,6 @@ header{
     .socialmedia{
         max-width: 50%;}
     }
-
+    .button{
+    width: 100%;
+    overflow: visible}
