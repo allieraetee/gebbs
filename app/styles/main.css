@@ -523,6 +523,10 @@ th {
     max-width: 75%;}
 .meet{
     margin: .6em;}
+.centera {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;}
 /* Header+Nav */
 
 header{
