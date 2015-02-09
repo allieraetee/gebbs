@@ -740,6 +740,10 @@ header{
 .fcol a:link{color: white;}
 .fcol a:hover{color: #cf202e;}
 .fcol a:visited{color: #cf202e;}
+.center {
+  display: block;
+  margin: 0 auto;
+}
 
 /* VIEWPORT < 420px */
  
