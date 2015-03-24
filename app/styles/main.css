@@ -644,28 +644,26 @@ header{
 
 .slider {
     min-height: 25em;
-    width: 49%;
-    float: left;
-    margin: .6em;
-    background-image: url('../images/faces.jpg');
+    width: 90%;
+    margin: .6em auto;
+    background-image: url('../images/mainimage.jpg');
     background-repeat: no-repeat;
-    background-position: center;   
+    background-position: center;  
+    background-size: cover;
+
 }
 .videowrapper {
-  position: relative;
-  overflow: hidden;
-  padding-bottom: 56.25%; /* 16:9 */
-  padding-top: 25px;
-  max-width: 100%;
-  height: 0;
-  margin: 0 auto;
+  width: 48%;
+  float: right;
 }
 .videowrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
-  height: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.caption {
+  clear: both;
 }
 
 /* Main Content */
